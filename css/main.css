@@ -1,0 +1,2038 @@
+body { 
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    font-family: 'Montserrat', Helvetica Neue,Helvetica,sans-serif;
+    font-weight: normal;
+    color: #333333;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+a {
+    color: inherit;
+    cursor:pointer;
+}
+a:hover {
+    text-decoration: none;
+    color:none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.headerMenuRow{
+    height:60px;
+    background-color:#fff;
+    position:relative;
+    border-bottom: 1px solid #c1c1c1;
+}
+.headerItemBtnTxt{
+    padding-right: 0px;
+    float: right;
+    display: inline-block;
+}
+.headerMenuRow .headerLogo{
+    padding-top: 11px;
+    float: left;
+    display: inline-block;
+}
+
+.headerItemTxt{
+    color: #F47920;
+    font-size: 18px;
+    line-height: 58px;
+    float: left;
+    display: inline-block;
+}
+
+.headerItemBtnTxt .headerItemTxt .navbar {
+    min-height: auto;
+    margin-bottom: 0px;
+}
+
+.headerItemBtnTxt .headerItemTxt .navbar-toggle .icon-bar {
+    display: block;
+    width: 37px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #333;
+    margin: 7px 0px;
+}
+.headerItemBtnTxt .headerItemTxt .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.headerItemTxt ul li{
+    display: inline-block;
+}
+
+.headerItemTxt ul li a{
+    padding:0px 10px;
+}
+
+.headerItemTxt ul li a:hover{
+    text-decoration: none;
+    background-color: #E7192D;
+    color: #fff;
+}
+
+.headerItemSelected{
+    text-decoration: none;
+    background-color: #E7192D;
+    color: #fff;
+}
+
+.headerTrackOrderBtn{
+    background-color: #E7192D;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    float:right;
+}
+
+.headerTrackOrderBtn a{
+    display:block;
+    font-size: 20px;
+    color:#fff;
+    text-decoration:none;
+    padding: 0px 15px;
+}
+
+.headerTrackOrderBtn a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+.trackOrderNumberDiv{
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    width: 320px;
+    top: 60px;
+    z-index: 999;
+    border: 2px solid #E7192D;
+    padding: 27px 20px 15px 20px;
+    display:none;
+}
+
+.trackOrderNumberDiv .trackheaderTxtBox{
+    border-radius:0px;
+}
+
+.trackOrderNumberDiv .trackheaderBtn{
+    border-radius:0px;
+    background-color: #E7192D;
+    font-weight: bold;
+}
+
+.trackOrderNumberResultDiv{
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    width: 320px;
+    top: 60px;
+    z-index: 999;
+    border: 2px solid #E7192D;
+    padding: 0px 0px 25px 0px;
+    display:none;
+}
+
+.trackOrderNumberResultDiv .trackingID{
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.trackOrderNumberResultDiv .trackingID .trackText{
+    color: #888;
+    font-size: 14px;
+}
+
+.trackOrderNumberResultDiv .trackingID .trackNumber{
+    color: #E7192D;
+    font-size: 20px;
+}
+
+.trackOrderNumberResultDiv .trackDelivery{
+    background-color: #E7192D;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+.trackStatusHeadImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.trackStatusHeadImg .number{
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    font-size: 20px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.trackStatusHeadImg .otherColor{
+    color:#E7192D;
+}
+
+.seperatorTrackDiv{
+    height: 31px;
+    border-left: 5px solid red;
+    margin-left: 28.5%;
+    margin-top: -2px;
+}
+
+.trackOrderStatusTxt .text1{
+    font-weight: bold;
+    font-size:16px;
+}
+
+.trackOrderStatusTxt .date1{
+    font-size: 13px;
+    color: #888;
+}
+
+.trackStatusHeadImg{
+    margin-top:-1px;
+}
+
+.trackOrderStatusDiv{
+    overflow:hidden;
+}
+
+.closeDivTrackNow{
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.closeDivTrackNow a{
+    display: block;
+    background: #888;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.closeDivTrackNow a:hover{
+    background: #E7192D;
+    color: #fff;
+}
+
+.mainBodyTrackCourier {
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 40px;
+    background: url('../img/banner1.png') no-repeat;
+    min-height: 542px;
+    padding-top: 130px;
+}
+.mainBodyTrackCourier .mainBodyTrackCourierTxt{
+        margin: 20px 0px;
+}
+.mainBodyTrackCourier .mainBodyTrackCourierTxt h1{
+    margin-bottom: 16px;
+    padding-bottom: 0px;
+    margin: 0px auto;
+}
+
+.mainBodyTrackCourier .mainBodyTrackCourierTxt h1 span{
+    font-size: 39px;
+    color: #fff;
+}
+
+.mainBodyTrackCourierContent {
+    margin-top: 30px;
+}
+
+.mainBodyTrackCourierContent .text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mainBodyTrackCourierContent .txtBoxShippmentDiv{
+    float: right;
+    border: 2px solid #fff;
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 6px;
+    outline: none;
+    background-color: #fff;
+}
+
+.mainBodyTrackCourierContent .txtBoxShippmentCls{
+    border: none;
+    padding: 13px 10px;
+    font-size: 18px;
+    width: 100%;
+    background: transparent none;
+    color: #888;
+}
+
+.txtBoxShippmentCls::-webkit-input-placeholder {
+   color: #888;
+}
+
+.txtBoxShippmentCls:-moz-placeholder { /* Firefox 18- */
+   color: #888;  
+}
+
+.txtBoxShippmentCls::-moz-placeholder {  /* Firefox 19+ */
+   color: #888;
+}
+
+.txtBoxShippmentCls:-ms-input-placeholder {  
+   color: #888; 
+}
+
+.buttonShippmentDivMain{
+    padding-left: 0px;
+}
+
+.buttonShippmentDivMain .buttonShippmentDiv{
+    float: left;
+}
+
+.buttonShippmentDivMain .buttonShippmentDiv a{
+    background-color: #E7192D;
+    color: #fff;
+    padding: 13px 10px;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 6px;
+    display: block;
+    border: 1px solid #fff;
+}
+.buttonShippmentDivMain .buttonShippmentDiv a:hover {
+    background-color: #fff;
+    color: #E7192D;
+    border:1px solid #E7192D;
+}
+
+.mainBodyEasySteps{
+    width: 100%;
+    overflow:hidden;
+    background-color: #2c3741;
+    color: #fff;
+}
+
+.fiveStepDetails{
+    height: 100%;
+    padding-bottom:12px;
+}
+
+.fiveStepDetails .text{
+    text-align: center;
+    margin: 25px 0px 20px 0px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.stepDetails .imgStep1{
+    float: right;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+}
+
+.stepDetails .textStep1{
+    display: block;
+    height: 100px;
+    font-size: 20px;
+    clear: both;
+    vertical-align: middle;
+    overflow: hidden;
+    margin: 10px 0px;
+    float: left;
+}
+
+.stepDetails .textStep1 .textStep1Detail{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.stepDetails a:hover{
+    color:#ff9900;
+}
+
+.stepDetails .imgStep1 a {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.stepDetails .imgStep1 a img {
+    width: 100%;
+    height: 100%;
+}
+
+.trackRightLogo{
+    padding: 0px;
+    height: 731px;
+    border: 1px solid #2c3741;
+    position:relative;  
+}
+
+.trackRightLogo img{
+    width:100%;
+    height:100%;
+}
+
+.emallxTextBanner{
+    color: #fff;
+    position: absolute;
+    top: 38%;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 125px;
+    opacity: 0.7;
+}
+
+.newsSectionListContaniner{
+    margin: 40px 0px;
+    overflow: hidden;
+}
+
+.newsSectionListContaniner .newsTopSection a{
+    display: block;
+}
+
+.newsSectionListContaniner .newsTopSection a img {
+    width:100%;
+    height:100%;
+}
+
+.newsBottomDetail .title{
+    margin: 15px 0px 10px 0px;
+    font-size: 17px;
+    color: #1b2432;
+}
+
+.newsBottomDetail .description {
+    text-align: left;
+    font-size: 14px;
+    color: #676d76;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.newsBottomDetail .link {
+    margin: 20px 0px 10px 0px;
+    color: #49505b;
+    bottom: 0px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.newsBottomDetail .link a{
+    display:block;
+    font-size: 15px;
+}
+
+.newsBottomDetail .link a span{
+    top: 2px;
+    margin-right: 6px;
+}
+
+.newsBottomDetail .link a:hover{
+    color:#FF9900;
+}
+.newsSectionInnerContainer{
+    cursor:pointer;
+    padding: 15px 10px;
+    border: solid 1px #cccccc;
+    height: 470px;
+}
+
+.newsSectionInnerContainer:hover{
+    border: solid 1px #ff9900;
+    
+}
+
+.mainFooterContainer{
+    background-color:#2c3741;
+    color:#fff;
+    padding: 30px 0px;
+    margin-top:45px;
+}
+
+.mainFooterContainer .footerHead1{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e1e2e4;
+}
+
+.mainFooterContainer .footerBody1 .linkDetail{
+    font-size: 13px;
+    padding: 10px 0px 0px 0px;
+    color: #a1a4aa;
+}
+
+.mainFooterContainer .footerBody1 .linkDetail span {
+    padding-right: 6px;
+    display:none;
+}
+
+.mainFooterContainer .footerBody1 .linkDetail a:hover {
+    color:#ff9900;
+    text-decoration:underline;
+}
+
+.howToShipContainer{
+    margin-top:45px;
+    clear:both;
+    overflow:hidden;
+}
+
+.howToShipInnerContainer{
+    float:none;
+}
+
+.howToTrackContainer{
+    clear: both;
+    overflow: hidden;
+    max-width: 1170px;
+    margin: 45px auto 0px auto;
+}
+
+.howToTrackInnerContainer{
+    float:none;
+}
+
+.trackShipmentHeader{
+    margin:0px auto;
+    text-align: center;
+    font-size: 30px;
+    background: #F34747;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.trackShipmentCusInfo{
+    overflow: hidden;
+    display: block;
+    border: 1px solid #c1c1c1;
+    background-color: #f7f7f7;
+    padding: 20px 10px;
+}
+
+.senderContainerMain .TxtFrom{
+    color: #888;
+    padding: 5px 0;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.senderContainerMain .CountryName{
+    color: #F34747;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.senderContainerMain .Date{
+    color:#333f48;
+    font-size: 16px;
+}
+
+.recieverContainerMain{
+    text-align: right;
+}
+
+.recieverContainerMain .TxtFrom{
+    color: #888;
+    padding: 5px 0;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.recieverContainerMain .CountryName{
+    color: #F34747;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.recieverContainerMain .Date{
+    color:#333f48;
+    font-size: 16px;
+}
+
+.customerTrackInfo{
+    border-right: 1px solid #888;
+}
+
+.customerTrackInfo .customerInfoLblTxt{
+    color: #888;
+    padding: 5px 0px 0px 0px;
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.customerTrackInfo .customerInfoTxt{
+    color: #F34747;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.footerMainConCls{
+    margin-bottom: 35px;
+}
+
+.newSecConCls{
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 992px) {
+    .footerMainCon{
+        clear:both;
+        display:block;
+    }
+
+    
+}
+
+@media screen and (max-width: 769px) {
+    .newsSectionInnerContainer {
+        max-width: 400px;
+        height: 450px;
+        margin: 0px auto;
+    }
+
+    .mainBodyTrackCourier {
+        text-align: center;
+        overflow: hidden;
+        display: block;
+        margin-bottom: 40px;
+        background: url('../img/banner1.png') repeat;
+        min-height: auto;
+        height: 100%;
+        padding: 50px 0px 100px 0px;
+    }
+
+    .mainBodyTrackCourierContent .content .txtBoxShippmentMain{
+        margin: 20px 0px;
+    }
+
+    .mainBodyTrackCourierContent .content .txtBoxShippmentMain .txtBoxShippmentDiv{
+        margin: 0px auto;
+        float:none;
+    }
+
+    .mainBodyTrackCourierContent .txtBoxShippmentDiv{
+        width:95%;
+    }
+
+    .buttonShippmentDivMain .buttonShippmentDiv{
+        float:none;
+    }
+    .buttonShippmentDivMain {
+        padding-left: 15px;
+    }
+    .buttonShippmentDivMain .buttonShippmentDiv a{
+        margin: 0px auto;
+        width: 95%;
+    }
+    .mainBodyTrackCourierContent .txtBoxShippmentCls{
+        font-size: 14px;
+    }
+    .mainBodyTrackCourierContent .text {
+        font-weight:normal;
+    }
+    .mainBodyTrackCourier .mainBodyTrackCourierTxt h1 span{
+        font-size:30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #MainHeader .container{
+        width:100%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .headerItemTxt {
+        color: #F47920;
+        font-size: 18px;
+        padding: 10px 2px;
+        float: none;
+        display: block;
+        clear: both;
+    }
+    .headerItemTxt ul li {
+        display: block;
+        text-align: left;
+        width: 100%;
+        background: gray;
+    }
+    .headerItemTxt ul li a {
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        padding: 20px 20px;
+        line-height: 0px;
+    }
+    .headerMenuRow {
+        height: auto;
+        padding: 0px 5px;
+    }
+    .headerMenuRow .headerLogo {
+        padding-top: 11px;
+        float: left;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+    }
+    .headerItemBtnTxt {
+        padding-right: 0px;
+        float: right;
+        display: block;
+        width: 100%;
+    }
+    .navbar-collapse{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .headerItemBtnTxt .headerItemTxt .navbar-toggle
+    {
+        padding-right: 0px;
+        padding-bottom: 5px;
+    }
+    .trackOrderNumberDiv{
+        right: 5px;
+    }
+    .trackOrderNumberResultDiv{
+        right: 5px;
+    }
+
+    .headerTrackOrderBtn a{
+        font-size:16px;
+    }
+
+    .headerLanguageContainer{
+        position: absolute;
+        margin-top: 75px !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .stepDetails .textStep1 .textStep1Detail{
+        display:none;
+    }
+    .stepDetails .textStep1{
+        float:none;
+        margin: 25px 0px 10px 0px;
+    }
+    .trackRightLogo{
+        height:100%;
+    }
+}
+
+.trackShipmentResultDiv{
+    position: relative;
+    display:block;
+    padding: 27px 0px 0px 0px;
+    text-align:center;
+}
+
+.trackShipmentResultDiv li {
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    background: #0db14b;
+    margin: 0 26px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    font-size: 15px;
+}
+
+.trackShipmentResultDiv .text1 {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 35px;
+}
+
+.trackShipmentResultDiv .date1 {
+    font-size: 13px;
+}
+
+.trackShipmentResultDiv li span{
+  z-index:2;
+}
+
+.trackShipmentResultDiv li::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -57px;
+    width: 58px;
+    height: 5px;
+    background: #0db14b;
+    z-index: 1;
+}
+
+
+
+.trackShipmentResultDiv li:first-child::before {
+  display: none;
+}
+
+.trackShipmentResultDiv .active {
+  background: #0db14b;
+}
+
+.trackShipmentResultDiv .active ~ li {
+  background: #ff9999;
+}
+
+.trackShipmentResultDiv .active ~ li::before {
+  background: #ff9999;
+}
+
+.trackShipmentResultDiv li.firstLi{
+    margin-left:0px;
+}
+
+.trackShipmentResultDiv li.lastLi{
+    margin-right:0px;
+}
+
+.trackShipmentMap{
+    width: 100%;
+    height: 350px;
+    display: block;
+    clear: both;
+    margin: 20px 0px;
+}
+
+.trackShipmentHistory{
+    border: 1px solid #c1c1c1;
+    margin: 35px 0px 10px 0px;
+    padding: 10px 15px;
+}
+
+.trackShipmentHistory .trackShipmentHistoryTxt{
+    margin: 10px 0px 20px 0px;
+    font-size: 22px;
+    color: #F34747;
+}
+
+.trackShipmentHistoryTbl .tblHistoryHead{
+    padding: 7px 1px;
+    background-color: #F34747;
+    text-align: center;
+    color: #fff;
+    border-bottom: none;
+    font-size: 16px;
+}
+
+.trackShipmentHistoryTbl .tblHistoryBody{
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    color: #888;
+    vertical-align: middle;
+}
+
+.trackShipmentHistoryTbl tr:hover td {
+    background-color: rgba(193, 193, 193, 0.38);
+}
+
+.validatorTxt {
+    background-color: #FFDDDD;
+    border-color: #DE514D !important;
+}
+
+@media screen and (max-width: 1120px) {
+    .trackShipmentResultDiv li{
+            margin: 0 10px;
+    }
+    .trackShipmentResultDiv li::before {
+        left: -25px;
+        width: 27px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .trackShipmentResultDiv li {
+        width: 90px;
+        height: 90px;
+    }
+    .trackShipmentResultDiv .text1 {
+        font-weight: bold;
+        font-size: 13px;
+        padding-top: 30px;
+    }
+    .trackShipmentResultDiv .date1 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .trackShipmentResultDiv li {
+        width: 80px;
+        height: 80px;
+    }
+    .trackShipmentResultDiv .text1 {
+        font-weight: bold;
+        font-size: 12px;
+        padding-top: 23px;
+    }
+    .trackShipmentResultDiv .date1 {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .customerTrackInfo {
+        border-right:none;
+        border-bottom: 1px solid #888;
+        padding: 0px 28px;
+        margin-bottom: 15px;
+    }
+
+    .trackShipmentHeader{
+        font-size:25px;
+    }
+
+    .trackShipmentResultDiv li {
+        width: 110px;
+        height: 110px;
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .trackShipmentResultDiv .text1 {
+        font-weight: bold;
+        font-size: 16px;
+        padding-top: 35px;
+    }
+    .trackShipmentResultDiv .date1 {
+        font-size: 13px;
+    }
+    .trackShipmentResultDiv li::before {
+        content: '';
+        position: absolute;
+        left: 52px;
+        top: -20px;
+        width: 7px;
+        height: 21px;
+        background: #0db14b;
+        z-index: 1;
+        right: 0px;
+        text-align: center;
+    }
+
+    .trackShipmentResultDiv li:first-child::before {
+        display: none;
+    }
+
+    .trackShipmentResultDiv .active {
+      background: #0db14b;
+    }
+
+    .trackShipmentResultDiv .active ~ li {
+      background: #ff9999;
+    }
+
+    .trackShipmentResultDiv .active ~ li::before {
+      background: #ff9999;
+    }
+
+    .trackShipmentResultDiv li.firstLi{
+        margin-left:auto;
+    }
+
+    .trackShipmentResultDiv li.lastLi{
+        margin-right:auto;
+    }
+
+}
+
+.validatorTxt {
+    background-color: #FFDDDD !important;
+    border-color: #DE514D !important;
+}
+#error_msg
+{
+    font-weight: bold;
+    color: red;
+    font-size:small;
+}
+
+.newsInnerContainer .newsTopSection a{
+    display: block;
+}
+
+.newsInnerContainer .newsTopSection a img {
+    width:100%;
+    height:100%;
+}
+
+.newsDetailImage img{
+    width:100%;
+    height:100%;
+}
+
+.newsDetailTitle .NDTitle{
+    font-size: 25px;
+    color: #ff0000;
+}
+
+.newsDetailTitle .NDDate{
+    font-size: 15px;
+    color: #676d76;
+}
+
+.newsDetailDesp{
+    margin-top: 25px;
+}
+
+.newsDetailDesp .NDDescription{
+    text-align: justify;
+    font-size: 15px;
+    color: #676d76;
+    font-weight: normal;
+}
+
+.contactDetailHead{
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #2c3741;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contactDetailBody .addressContact{
+    margin: 0px 0px 10px 0px;
+}
+
+.contactDetailBody .addressContact .addTitle {
+    width: 110px;
+    color: #ff9900;
+    display: inline-block;
+}
+
+.contactDetailBody .addressContact .addDetail {
+    font-size: 17px;
+    color: #333;
+}
+
+.contactDetailsMain{
+    width: 100%;
+    border: 2px solid #F34747;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    overflow:hidden;
+}
+
+.feedbackHead{
+    font-size: 15px;
+    color: #888;
+    margin: 20px 0px;
+}
+
+.feedbackTxt{
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 17px;  
+    height:auto;
+}
+
+.feedbackDesp{
+    max-width: 500px;
+    min-height: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;  
+}
+
+#feedbackSubmitBtn{
+    padding: 15px 15px;
+    display: block;
+    width: 150px;
+    text-align: Center;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.feedbackTxtDiv{
+    margin-bottom: 25px;
+}
+
+.servicesInnerContainer .serviceTxtDiv {
+    text-align:center;
+}
+
+.servicesInnerContainer .serviceTxt{
+    font-weight:bold;
+    font-size:30px;
+    border-bottom:2px solid #ff9900;
+    display: inline-block;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.serviceOptionImgDiv{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ddd;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.serviceOptionImgDiv img {
+    width:100%;
+    height:100%;
+}
+
+.serviceOptionText .serviceOptionTextHead{
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 20px;
+    color:#ff9900;
+}
+
+.serviceOptionText .serviceOptionTextBody {
+    color: #777777;
+    font-size: 14px;
+}
+
+.servicesOptionMain{
+    margin-bottom:35px;
+}
+
+.servicesOptionContainer{
+    margin: 40px 0px 30px 0px;
+}
+
+.headerLanguageContainer{
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #ff9900;
+    background: #fff;
+    color: #FE825B;
+    margin-right: 10px;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+.languageEnglishDiv{
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 10px;
+    border-right: 2px solid #FE825B;
+}
+
+.languageArabicDiv{
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.headerLanguageContainer a:hover{
+    color:#ff0000;
+}
+
+.shipmentOnlinePickDelivery{
+    border: 2px solid #E7192D;
+    overflow: hidden;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 30px 0px;
+    
+}
+
+.shipmentOnlinePickDeliveryHeadTxt{
+    padding: 0px;
+    background-color: #E7192D;
+    margin-bottom: 40px;
+}
+
+.shipmentOnlinePickDeliveryHeadTxt h1{
+    padding: 5px 0px 15px 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.shipmentOnlinePickDelivery .shipmentPickupContainer{
+    max-width: 300px;
+    min-height: 300px;
+    text-align: center;
+    padding: 10px 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    color:#fff;
+    margin:0px auto 20px auto;
+}
+
+.shipmentPickUpIcon{
+    width: 128px;
+    height: 128px;
+    margin: 15px auto;
+    margin-bottom: 15px;
+
+}
+
+.shipmentPickUpIcon img{
+    width: 100%;
+    height: 100%;
+}
+
+.shipmentPickUpDiv{
+    border-top: 1px dotted #fff;
+    display:block;
+}
+
+.shipmentPickUpDivTxtHead{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 10px 0px 10px 0px;
+}
+
+.shipmentPickUpDivTxtFooter{
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0px 20px;
+}
+
+
+.shipmentOnlinePickDelivery .shipmentPickupContainer:hover{
+    background-color:#2c3741;
+}
+
+
+.shipmentPickupContainerPick{
+    background-color:#006991;
+}
+
+.shipmentPickupContainerDel{
+    background-color: #E7192D;
+}
+
+.shipmentPickupContainerHowTo{
+    background-color: #0db14b;
+}
+
+.findStoreContainer {
+    clear: both;
+    overflow: hidden;
+    max-width: 1170px;
+    margin: 15px auto 0px auto;
+}
+
+.countryContainerMain{
+    margin-bottom:20px;
+}
+
+.countryContainerMain1{
+    margin-bottom:20px;
+}
+
+.countryDDLItems{
+    border-radius: 5px;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 10px;
+    height:55px;
+    border: 2px solid #8B8585;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #605954;
+    font-size: 17px;
+    background: url('../img/truckicon.png') no-repeat;
+    background-size: 37px;
+    background-position: right 10px top;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.countryDDLItems option{
+    padding:20px;
+}
+
+.buttonFindCountryBtn a{
+    background-color: #736D6D;
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    border: 1px solid #393734;
+    text-transform: uppercase;
+    font-size:17px;
+}
+
+.buttonFindCountryBtn a:hover {
+    background-color: #fff;
+    color: #968B8C;
+    border:1px solid #736D6D;
+    font-weight:bold;
+}
+
+.headingFindStore{
+    background-color: #E7192D;
+    border-radius: 5px;
+}
+
+.headingFindStore h1{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.findStoreDDLContainer{
+    margin:40px 0px;
+}
+
+.storesContainerInnerDiv{
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 5px;
+    display: block;
+    height: 520px;
+    margin-bottom:30px;
+}
+
+.mapContainerMain{
+    height:520px;
+}
+
+.storesContainerInnerDiv ul li{
+    border-bottom: solid 1px #C1C1C1;
+    padding: 15px 0px;
+    cursor:pointer;
+}
+
+.storeDetailNumberDiv{
+    color: #736D6D;
+    border-radius: 50%;
+    border: 2px solid #736D6D;
+    width: 37px;
+    text-align: center;
+    height: 37px;
+    line-height: 34px;
+    display: inline-block;
+    font-size: 19px;
+    vertical-align:top;
+}
+
+.storeDetailTextDiv{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.storeDetailTextDiv .storeName{
+    font-size: 18px;
+    color: #736D6D;
+    text-transform: uppercase;
+    margin-bottom:5px;
+}
+
+.storeDetailTextDiv .storeDetailOther{
+    font-size: 16px;
+    color: #6F6F6E;
+}
+
+
+.storesContainerInnerDiv ul li:hover {
+    background-color:#736D6D;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.storesContainerInnerDiv ul li:hover .storeDetailNumberDiv{
+    color:#fff;
+    border: 2px solid #fff;
+}
+
+.storesContainerInnerDiv ul li:hover .storeDetailTextDiv .storeName, .storesContainerInnerDiv ul li:hover .storeDetailTextDiv .storeDetailOther {
+    color:#fff;
+}
+
+.storesContainerInnerLiSelected {
+    background-color: #736D6D !important;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+}
+
+.storeDetailNumberDivSelected {
+    color:#fff !important;
+    border: 2px solid #fff !important;
+}
+
+.storeDetailTextDivSelected {
+    color:#fff !important;
+}
+
+.pickupDivLeftTextMainHead{
+    background-color: #F47920;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    font-size: 26px;
+    border-radius: 5px;
+}
+
+.pickupDivLeftTextMainBottom{
+    margin: 30px 0px;
+    color: #676d76;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.pickupDivContentInfo{
+    margin: 30px 0px;
+    color: #676d76;
+    font-size: 17px;
+}
+
+.fromCountryCityDDLTxt{
+    padding: 0px 15px 5px 15px;
+    color: #F47920;
+    clear: both;
+    display: block;
+}
+
+.typePickupTxt{
+    color: #F47920;
+    clear: both;
+    display: block;
+}
+
+.ddlCaptionCityColor{
+    width:100% !important;
+}
+
+.ddlContactUsDeptCls{
+    width:100% !important;
+    max-width:500px;
+}
+
+.ddlPickupType{
+    width:100% !important;
+}
+
+.fromCountryCityDDL{
+    clear: both;
+    padding-bottom: 70px;
+}
+
+.weightPickupDDLCls{
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    padding: 12px 15px;
+    width: 100%;
+}
+
+.weightPickupDDLCls::-webkit-input-placeholder {
+color: rgba(179, 179, 179, 0.7);
+}
+ 
+.weightPickupDDLCls:-moz-placeholder { /* Firefox 18- */
+color: rgba(179, 179, 179, 0.7);  
+}
+ 
+.weightPickupDDLCls::-moz-placeholder {  /* Firefox 19+ */
+color: rgba(179, 179, 179, 0.7);  
+}
+ 
+.weightPickupDDLCls:-ms-input-placeholder {  
+color: rgba(179, 179, 179, 0.7);  
+}
+
+.pickupDivDetailsDiv{
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.typeWeightPickup{
+    clear: both;
+    padding-bottom: 70px;
+}
+
+.continueDivForServiceOption{
+    margin: 20px 0px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+.continueDivForServiceOption .btnContinueService{
+    padding: 10px 25px;
+    display: block;
+    width: 200px;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.serviceOptionsContainerDiv{
+    display: none;
+    clear: both;
+    overflow: hidden;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.serviceOptionsInnerContainerDiv{
+    max-width: 300px;
+    min-height: 300px;
+    text-align: center;
+    padding: 10px 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    color:#fff;
+    margin:0px auto 20px auto;
+}
+
+
+.serviceOptionsContainerDiv .serviceOptionsInnerContainerDiv:hover{
+    background-color:#2c3741;
+}
+
+.serviceOptionsInnerContainerSelected{
+    background-color:#2c3741 !important;
+    border: 4px solid #ff9900;
+}
+
+.serviceOptionTxtHeader{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.serviceOptionsContainerFastest{
+    background-color:#E7192D;
+}
+
+.serviceOptionsContainerBestPrice{
+    background-color: #006991;
+}
+
+.headerShipmentDetailItem{
+    text-align: center;
+    border-top: 2px solid #D5414D;
+    border-left: 2px solid #D5414D;
+    height: 109px;
+    border-bottom: 2px solid #D5414D;
+    margin-top:20px;
+}
+
+.headerShipmentDetailItemImgCheck{
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    background: #fff;
+    width: 31px;
+    height: 31px;
+}
+
+.headerShipmentDetailItemImgArrow{
+    position: absolute;
+    top: 0px;
+    right: -14px;
+}
+
+.headerShipmentTxt{
+    vertical-align: middle;
+    text-align: center;
+    line-height: 109px;
+    font-size: 18px;
+    color: #676d76;
+}
+
+.headerShipmentTxtSelected {
+    color:#D5414D;
+    font-weight:bold;
+}
+
+.headerShipmentTxtSpan{
+    line-height: normal;
+    display: inline-block;
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.headShipmentTxtSmaller{
+    line-height: normal;
+    display: none;
+    font-size:16px;
+    text-transform:uppercase;
+}
+
+.noLeftBorderShipmentDetailItem{
+    border-left:none;
+}
+
+.addRightBorderShipmentDetailItem{
+    border-right: 2px solid #D5414D;
+}
+
+.widthForFiveItems{
+    width:20%;
+    float:left;
+}
+
+.headerShipmentDetail{
+    margin: 25px 0px;
+    overflow: hidden;
+}
+
+.shipmentStepPackageInfoHead{
+    font-size: 21px;
+    margin: 0px 0px 30px 0px;
+    color: #fff;
+    background-color: #006991;
+    padding: 20px 30px;
+    text-transform:uppercase;
+}
+
+.packageInfoFromLbl{
+    padding: 10px 20px;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #E7192D;
+    color: #fff;
+}
+
+.packageInfoFromName{
+    color: #E7192D;
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    border: 3px solid #e7192d;
+    min-height: 252px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.shipmentStepPackageInfo{
+    border: 1px solid #006991;
+    overflow: hidden;
+    padding-bottom:50px;
+}
+
+.ddlPickupTypePackageInfo{
+    width:60% !important;
+}
+
+.ddlPickupTypePackageInfoTxt{
+    color: #F47920;
+    text-transform: uppercase;
+    width: 25%;
+    display: inline-block;
+}
+
+.ddlPickTimeInfo{
+    color: #F47920;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height:48px;
+}
+
+.weightPickupDDLPackageInfoCls{
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    padding: 12px 15px;
+    width: 60%;
+}
+
+.shipmentPackageInfoDetail{
+    padding: 30px 0px 20px 0px;
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+
+.shipmentPackageInfoDetail .weightPickupDDL{
+    margin-bottom: 30px;
+}
+
+.despPackageInfoCls{
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    border-radius: 5px;
+    padding: 12px 15px;
+    width: 75%;
+    height: 200px;
+}
+
+.ddlPickupTypePackageInfoTxtMultiLine{
+    vertical-align: top;
+}
+
+.ddlPickupTypePackageInfoTxtDesp{
+    color: #F47920;
+    text-transform: uppercase;
+    width: 20%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.btnBackService{
+    float: left !important;
+}
+
+.ddlPickTimeTypePackageInfo{
+    min-width: 320px;
+    width: 70%;
+}
+
+.ddlPickTimeFromPackageInfo{
+    width:100%;
+}
+
+.pickupDateTimeContainer{
+    margin: 40px 0px 120px 0px;
+}
+
+.shipmentSenderContactInfoName{
+    margin:15px 0px;
+}
+
+.shipmentSenderTxt{
+    color: #E7192D;
+    text-transform: uppercase;
+}
+
+.shipmentSenderContactHead{
+    overflow: hidden;
+}
+
+.shipmentSenderDivSignIn{
+    text-align:right;
+}
+
+.shipmentSenderDivSignIn a{
+    color: #F47920;
+    text-decoration: underline;
+}
+
+.summaryHeaderTxtPackage{
+    color: #006991;
+    text-transform: uppercase;
+    text-decoration:underline;
+    margin-bottom: 20px !important;
+}
+
+.shipmentSenderDivSignIn a:hover{
+    color: #E7192D;
+}
+
+.basicInfoUnCheckBox{
+    background:url('../img/unchecked.png') no-repeat;
+    background-position: left;
+    padding-left: 32px;
+    background-size: 23px;
+    line-height: 30px;
+    font-size: 17px;
+    min-width: 23px;
+    min-height: 23px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #006991;
+}
+
+.basicInfoCheckBox{
+    background:url('../img/checked.png') no-repeat;
+    background-position: left;
+    padding-left: 32px;
+    background-size: 23px;
+    line-height: 30px;
+    font-size: 17px;
+    min-width: 23px;
+    min-height: 23px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #006991;
+}
+
+.summaryTitleLbl{
+    color: #888;
+    width: 42%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+.summaryTitleDetail{
+    font-size: 23px;
+    color:#F47920;
+}
+
+.summaryTitleDetail1{
+    font-size: 18px;
+    color:#F47920;
+}
+.summarySenderReciever{
+    padding-bottom: 15px;
+    overflow:hidden;
+}
+.summaryTitleLbl1{
+    color: #888;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+.summaryPackageDetailsSteps{
+    margin-bottom: 20px;
+}
+
+.summaryDespLbl{
+    color: #888;
+    width: 15%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+.summaryDespDetail{
+    font-size: 17px;
+    text-align: justify;
+    color: #333;
+}
+
+.summaryPackageDetails1{
+    margin-bottom: 30px;
+    overflow: hidden;
+    clear: both;
+}
+
+.summarySenderTxt{
+    text-align:center;
+    font-size:20px;
+    color:#E7192D;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.confirmThankyouTxt{
+    padding: 0px 20px;
+    color: #F47920;
+    text-align: justify;
+}
+
+.valadationTxtServiceOption{
+    color: red;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+.faqInnerContainer{
+    border: 3px solid #3A9ACE;
+    padding: 50px 10px 20px 10px;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    border-top: 50px solid #338DC1;
+    position: relative;
+    border-radius: 5px;
+}
+
+.headerFaqImage{
+    position: absolute;
+    top: -75px;
+    left: 0px;
+    right: 0px;
+    display: block;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: 3px solid #338DC1;
+    padding: 11px 0px;
+}
+
+.headerFaqImage img{
+    width: 80px;
+    height: 80px;
+}
+
+.headerFaqQuestion{
+    font-size: 26px;
+    line-height: 33px;
+    color: #F47920;
+    padding: 0px 5px;
+    text-align: left;
+}
+
+.headerFaqAnswer{
+    padding: 20px 5px 10px 5px;
+    text-align: justify;
+    color: #888;
+    display: block;
+    font-size: 16px;
+    height:100px;
+    overflow:hidden;
+
+}
+
+.readMoreDivContainer{
+    text-align: right;
+    margin: 10px 0px 0px 0px;
+    color: #49505b;
+}
+
+.readMoreDivContainer .readGlyphicon{
+    top: 2px;
+    margin-right: 6px;
+}
+
+.responsiveDesignContentContainer{
+    margin-bottom:15px;
+}
+
+@media screen and (max-width: 740px)
+{
+    .ddlPickupTypePackageInfoTxt{
+        display:block;
+        width:100%;
+    }
+
+    .weightPickupDDLPackageInfoCls{
+        width: 100%;
+        display:block;
+    }
+
+    .ddlPickupTypePackageInfoTxtDesp{
+        display:block;
+        width:100%;
+    }
+
+    .despPackageInfoCls{
+        width:100%;
+    }
+
+    .ddlPickupTypePackageInfo{
+        width:100% !important;
+    }
+
+    .serviceOptionsInnerContainerDiv{
+        margin-top:15px;
+    }
+
+    .headerShipmentTxtSpan{
+        display: none;
+    }
+
+    .headShipmentTxtSmaller{
+        display: inline-block;
+    }
+
+    .ddlPickTimeTypePackageInfo{
+        width: 100%;
+    }
+
+    .pickupDateTimeContainer{
+        margin: 40px 0px 20px 0px;
+    }
+    .continueDivForServiceOption{
+        margin:10px 0px;
+    }
+
+    .summaryTitleLbl{
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+
+    .summaryDespLbl, .summaryDespDetail, .summaryTitleLbl1, .summaryTitleDetail1{
+        width: 100%;
+        display: block;
+        text-align: left;
+        padding-left: 0px;
+    }
+}
